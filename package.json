@@ -4,6 +4,7 @@
   "description": "A Discord bot to remote upload a video, image or any file format to Discord (without having to download the file)",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
