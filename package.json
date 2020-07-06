@@ -1,0 +1,23 @@
+{
+  "name": "remotebot",
+  "version": "1.0.0",
+  "description": "A Discord bot to remote upload a video, image or any file format to Discord (without having to download the file)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExillustX/remoteBot.git"
+  },
+  "author": "ExillustX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ExillustX/remoteBot/issues"
+  },
+  "homepage": "https://github.com/ExillustX/remoteBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
