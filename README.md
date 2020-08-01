@@ -7,3 +7,4 @@ A Discord bot to remote upload a video, image or any file format to Discord (wit
 ## Commands:
 - r!help
 - r!remote direct_link_to_a_file
+- r!invite
