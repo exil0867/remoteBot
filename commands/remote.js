@@ -10,7 +10,9 @@ exports.run = (bot, msg, args) => {
   msg.channel.send({
     files: [args[0]]
   })
-  .catch(console.error);
+  .catch(err => {
+    msg.channel.send(`Error: ${err.message}`);
+  });
 };
 
 exports.help = {
