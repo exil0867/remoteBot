@@ -10,6 +10,9 @@ exports.run = (bot, msg, args) => {
         }, {
           'name': process.env.PREFIX + 'remote',
           'value': `Remote upload a file. Usage: \`${process.env.PREFIX}remote DIRECT_FILE_URL\``
+        }, {
+          'name': process.env.PREFIX + 'invite',
+          'value': `Invite the bot to your server. Usage: \`${process.env.PREFIX}invite\``
         }
       ],
       'color': 3264944,
