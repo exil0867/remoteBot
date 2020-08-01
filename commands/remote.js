@@ -22,7 +22,7 @@ exports.run = async (bot, msg, args) => {
     files: [args[0]]
   })
   .catch(err => {
-    msg.channel.send(`Error: ${err.message}`);
+    msg.channel.send(`Error: ${(err.message || 'Unknown')}`);
   });
 };
 
