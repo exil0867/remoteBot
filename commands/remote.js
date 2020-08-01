@@ -15,8 +15,6 @@ exports.run = async (bot, msg, args) => {
   if (!isNaN(fileSizeB) && fileSizeB !== null) {
     const fileSizeMB = fileSizeB / Math.pow('1024', 2);
 
-    msg.channel.send(`kb: ${fileSizeB / Math.pow('1024', 1)} MB:${fileSizeMB}`);
-
     if (fileSizeMB > 100) return msg.channel.send(`Error: File size is larger than 100MB`);
   }
 
